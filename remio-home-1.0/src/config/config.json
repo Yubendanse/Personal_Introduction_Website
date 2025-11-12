@@ -1,0 +1,233 @@
+{
+  "name": "Yubendanの主页✨",
+  "favicon": "/favicon.ico",
+  "keywords": "Yubendanの主页✨,Yubendan的个人博客,Yubendan,",
+  "description": "Yubendanの主页，兴趣至上，内容随缘，个人主页",
+  "avatarConfig": {
+    "src": "https://my-page-1321050508.cos.ap-shanghai.myqcloud.com/%E4%B8%AA%E4%BA%BA%E7%BD%91%E9%A1%B5%E5%9B%BE%E7%89%87/avatar.jpg",   
+    "size": 250,
+    "round": "full",
+    "style": "glint",
+    "hoverAnimate": "top",
+    "hidden": false,
+    "aloneRight": true
+  },
+  "bgConfig": {
+    "bg": ["https://s2.loli.net/2024/06/21/euQ48saP7UgMyDr.webp"],  
+    "mbg": ["https://s2.loli.net/2024/06/21/59b6eRscAvQWHT1.webp"],  
+    "bgStyle": "snow",
+    "blur": "",
+    "cardOpacity": 0.1,
+    "carousel": true,
+    "carouselGap": 5,
+    "transitionTime": 0.7,
+    "transitionStyle": "default",
+    "autoAnimate": false
+  },
+  "globalStyle": {
+    "primaryColor": "#0dbf56",
+    "theme": "switcher",
+    "weather": true
+  },
+  "layoutConfig": {
+    "gapSize": "lg",
+    "style": "horizontal",
+    "istTransition": true
+  },
+  "subTitle": "https://v1.hitokoto.cn?c=a&c=b&c=c", 
+  "subTitleConfig": {
+    "typing": true,
+    "loading": "wave",
+    "loopTyping": true,
+    "shadow": false,
+    "typingCursor": true,
+    "showFrom": true,
+    "style": "desc",
+    "gapDelay": 0.05,
+    "content": "Hello💫，这里是Yubendanの主页",
+    "desc": "我姓Yu是个大笨蛋，所以叫Yubendan啦;主要捣鼓一些后端，会点点前端，目标是成为一个温柔的全栈开发，好耶！🥰"
+  },
+  "links": [
+    {
+      "title": "qq",
+      "color": "#dfba00",
+      "url": "https://qm.qq.com/q/VNlia9nNK0",
+      "icon": "qq"
+    },
+    {
+      "title": "telegram",
+      "color": "#1da1f2",
+      "url": "https://t.me/Yubendan", 
+      "icon": "telegram"
+    },
+    {
+      "title": "github",
+      "color": "#000000",
+      "url": "https://github.com/Yubendanse", 
+      "icon": "github"
+    },
+    {
+      "title": "email",
+      "color": "#fd3232",
+      "url": "171912819@qq.com", 
+      "icon": "email"
+    },
+    {
+      "title": "bilibili",
+      "color": "#0088cc",
+      "url": "https://b23.tv/eKdVig8",
+      "icon": "bilibili"
+    }
+  ],
+  "sites": [
+    {
+      "icon": "https://my-page-1321050508.cos.ap-shanghai.myqcloud.com/%E4%B8%AA%E4%BA%BA%E7%BD%91%E9%A1%B5%E5%9B%BE%E7%89%87/boke.jpg",
+      "title": "Yubendanの博客",
+      "url": "https://blog.csdn.net/2301_79409088?spm=1000.2115.3001.10640",
+      "desc": "博客主页"  
+    },
+    {
+      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
+      "title": "Yubendanの朋友圈",
+      "url": "baidu.com",
+      "desc": "开发ing"
+    },
+    {
+      "icon": "https://cs.kasuie.cc/icons/a8cb45a8-c0ec-41e7-ab8f-ff4fe8817230.jpg!cover",
+      "title": "YubendanのAI",
+      "url": "baidu.com",
+      "desc": "开发ing"
+    },
+    {
+      "icon": "https://my-page-1321050508.cos.ap-shanghai.myqcloud.com/%E4%B8%AA%E4%BA%BA%E7%BD%91%E9%A1%B5%E5%9B%BE%E7%89%87/boke.jpg",
+      "title": "个人项目",
+      "desc": "个人项目开源."
+    },
+    {
+      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
+      "title": "个人网页",
+      "url": "https://github.com/Yubendanse/Personal_Introduction_Website",
+      "desc": "个人网页开源"
+    },
+    {
+      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
+      "title": "二维码生成工具",
+      "url": "https://gitee.com/yu-bendan_0/study_Python/tree/master/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7/.idea",
+      "desc": "二维码生成工具开源"
+    },
+    {
+      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
+      "title": "闲鱼ai客服",
+      "url": "https://gitee.com/yu-bendan_0/study_Python/tree/master/%E9%97%B2%E9%B1%BCai%E5%AE%A2%E6%9C%8D",
+      "desc": "闲鱼ai客服开源"
+    },
+    {
+      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
+      "title": "人生重开模拟器",
+      "url": "https://gitee.com/yu-bendan_0/study_Python/tree/master/%E4%BA%BA%E7%94%9F%E9%87%8D%E5%BC%80%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F",
+      "desc": "人生重开模拟器开源"
+    },
+    {
+      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
+      "title": "扫雷小游戏",
+      "url": "https://gitee.com/yu-bendan_0/project-c/tree/master/%E6%89%AB%E9%9B%B7",
+      "desc": "扫雷小游戏开源"
+    },
+    {
+      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
+      "title": "贪吃蛇小游戏",
+      "url": "https://gitee.com/yu-bendan_0/project-c/tree/master/%E8%B4%AA%E5%90%83%E8%9B%87",
+      "desc": "贪吃蛇小游戏开源"
+    }
+  ],
+  "sitesConfig": {
+    "hidden": false,
+    "cardStyle": "",
+    "hoverBlur": true,
+    "hoverScale": true,
+    "hoverFlip": true,
+    "direction": "row",
+    "modal": true,
+    "modalTips": "这里大多都是初学时开发的，算是练手的，技术力不高，看起来也很不好看，算是黑历史，但也算是一段记忆的载体了，所以我想把它保存在此。",
+    "modalTitle": ""
+  },
+  "socialConfig": {
+    "autoAnimate": true,
+    "loading": "wave",
+    "ripple": true
+  },
+  "sliders": {
+    "data": [
+      {
+        "title": "C/C++",
+        "value": 70,
+        "icon": "qq"
+      },
+      {
+        "title": "Python",
+        "value": 50,
+        "icon": "qq"
+      },
+      {
+        "title": "HTML",
+        "value": 70,
+        "icon": "qq"
+      },
+      {
+        "title": "CSS",
+        "value": 60,
+        "icon": "qq"
+      },
+      {
+        "title": "JS",
+        "value": 50
+      },
+      {
+        "title": "Vue",
+        "value": 30
+      },
+      {
+        "title": "PS/PR",
+        "value": 30
+      },
+      {
+        "title": "QT",
+        "value": 30
+      },
+      {
+        "title": "MySql",
+        "value": 55
+      },
+      {
+        "title": "ChatGPT",
+        "value": 40
+      },
+      {
+        "title": "Linux",
+        "value": 60
+      },
+      {
+        "title": "Docker",
+        "value": 45
+      }
+    ],
+    "title": "技能加点",
+    "color": "linear-gradient(to right, #ffafbd 0%, #c9ffbf 100%)",
+    "hidden": false,
+    "column": 4
+  },
+  "footer": {
+    "text": "© 2025 - 2026 By Yubendan",
+    "url": "https://kasuie.cc",
+    "ICP": "ICP备xxxxxxxx号",
+    "MPSICP": "京公网安备xxxxxxxx号",
+    "direction": "col-reverse",
+    "isExternal": true
+  },
+  "resources": {
+    "css": [],
+    "js": [],
+    "bodyHtml": ""
+  },
+  "domain": "https://remio-home.vercel.app"
+}
