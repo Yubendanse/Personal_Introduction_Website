@@ -5,7 +5,7 @@ services:
     image: kasuie/remio-home
     container_name: remio-home
     ports:
-      - "3000:3000"
+      - "3004:3000"
     environment:
       - TZ=Asia/Shanghai
       - GTMID=value # Google Tag Manager
