@@ -1,0 +1,22 @@
+ai-chat-app/
+├── public/
+│   ├── index.html       # 访客聊天页
+│   ├── admin.html       # 管理后台页面（访问 /admin）
+│   ├── app.js           # 访客聊天相关前端逻辑
+│   ├── admin.js         # 管理后台前端逻辑
+│   └── styles.css       # 基础样式（包含 Tailwind CDN）
+├── server/
+│   ├── server.js        # 后端主文件（Express）
+│   ├── config.json      # 存储 apiKey/model/systemPrompt（后端读写）
+│   └── .env.example     # 环境变量示例
+├── package.json
+└── README.md
+
+
+注意事项（重要）
+
+不要把 config.json 或真实 API Key 上传到公共仓库。
+
+启动前在 server/.env 中配置管理员密码与 JWT 秘钥（参考 .env.example），或者把这些环境变量写入服务器环境中。
+
+管理后台仅在拥有 ADMIN_PASSWORD（登录后会返回 JWT token）时可以修改配置。

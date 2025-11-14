@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Chat — 聊天</title>
+
+  <!-- 字体（可选）-->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- 主样式（覆盖旧的 styles.css） -->
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- 如果你还保留了 ui-enhanced.css，可以在此引入，但当前 styles.css 已包含高级视觉样式 -->
+  <!-- <link rel="stylesheet" href="/ui-enhanced.css"> -->
+
+  <meta name="theme-color" content="#071026" />
+</head>
+<body class="chat-body">
+
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">
+          <img src="https://my-page-1321050508.cos.ap-shanghai.myqcloud.com/%E4%B8%AA%E4%BA%BA%E7%BD%91%E9%A1%B5%E5%9B%BE%E7%89%87/avatar.jpg" alt="Logo" />
+        </div>
+        <div class="brand-text">
+          <div class="brand-title">Yubendan</div>
+          <div class="brand-sub">Ai分身</div>
+        </div>
+      </div>
+
+      <!-- 公告栏 -->
+      <div class="announcement-bar">
+        <div class="announcement-content">
+          公告栏<br>
+          欢迎使用 Yubendan AI 系统！<br>
+          聊天中请勿输入敏感信息。<br>
+          本 AI 不会存储任何用户信息。<br>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="clearBtn" class="control-btn">清空对话</button>
+      </div>
+
+      <footer class="sidebar-foot">
+        <div class="muted">© 2025 - 2026 By Yubendan</div>
+      </footer>
+    </aside>
+
+    <main class="main-panel">
+      <header class="main-header">
+        <div class="title-area">
+          <div class="page-title">与 Yubendan 聊天</div>
+          <div class="page-sub muted">隐私友好 — API 在服务器端代理</div>
+        </div>
+        <div class="header-actions">
+          <button id="adminLink" class="ghost-btn" onclick="location.href='/admin'">管理后台</button>
+        </div>
+      </header>
+
+      <section class="chat-area">
+        <div id="chatWindow" class="chat-window" role="log" aria-live="polite" aria-atomic="false">
+          <div id="messages" class="messages"></div>
+        </div>
+
+        <div class="composer">
+          <textarea id="userInput" placeholder="向 AI 提问，按 Enter 发送（Shift+Enter 换行）" rows="1" aria-label="消息输入"></textarea>
+          <div class="composer-actions">
+            <button id="sendBtn" class="send-btn">发送</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- 你的聊天逻辑脚本（保持原有 app.js）-->
+  <script src="/app.js" defer></script>
+</body>
+</html>
